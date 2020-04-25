@@ -3,4 +3,4 @@ const sayHi = function (name) {
     return 'Hello' + name + '!';
 };
 
-export default sayHi('Ramon'); // es6 shorthand
+export default sayHi('Ramon');
