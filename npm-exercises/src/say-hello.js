@@ -1,6 +1,6 @@
 // math.js
-const sayHi = function (name) {
-    return 'Hello' + name + '!';
+const sayHello = function (person) {
+    return 'Hello' + person + '!';
 };
 
-export default sayHi('Ramon');
+export default sayHello('Ramon');

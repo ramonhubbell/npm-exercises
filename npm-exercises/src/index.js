@@ -1,11 +1,24 @@
 const $ = require('jquery');
 
-const sayHello = (input) =>  console.log('Hello')
+import sayHello from './say-hello';
 
-sayHello();
+// const sayHello = (input) =>  console.log('Hello')
+//
+// sayHello();
 
-$(document).ready(){
-    $('body').html(sayHello());
-}
+// const person = { firstname: 'Ramon' };
+// const { firstname } = person;
+// const sayHello = (person) => `Hello ${person.firstname}.`;
+//
+// console.log(sayHello(person));
 
-import sayHi from './say-hello';
+
+
+$(document).ready (() =>{
+    $('body').html(sayHello(person));
+
+
+});
+
+
+
