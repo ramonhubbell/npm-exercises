@@ -4,6 +4,6 @@ const sayHello = (input) =>  console.log('Hello')
 
 sayHello();
 
-$(document).ready( => {
+$(document).ready(() => {
     $('body').html(sayHello());
 });
